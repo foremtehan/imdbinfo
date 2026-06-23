@@ -63,3 +63,5 @@ packages = ["imdbinfo"]
 
 [tool.setuptools.package-data]
 "sample_json_source" = ["*"]
+[project.scripts]
+"imdbinfo-fetch" = "imdbinfo.cli:main"
